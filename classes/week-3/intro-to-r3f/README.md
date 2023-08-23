@@ -14,4 +14,6 @@ React-three-fiber is a React renderer for three.js. Build your scene declarative
 
 ## Things to try next...
 
-- tk tk
+- Try adding your own component which encapsulates a primitive 3D shape and animates someway in the animation loop
+- Try tweaking the RotateChildren component to introduce new group level behaviors to the entire scene
+- Try styling the slides and adding links/media in them to customize the HTML story elements
