@@ -1,0 +1,15 @@
+body {
+  /* Reseting the default here */
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+#article_wrapper {
+  position: absolute;
+  background-color: #e6fff3;
+}
+
+#canvas_wrapper {
+  width: 100vw;
+  height: 100vh;
+}
