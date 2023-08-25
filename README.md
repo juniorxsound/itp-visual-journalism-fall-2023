@@ -7,11 +7,16 @@ Code for Fall 2023 Visual Journalism course in ITP, NYU 🎓
 ## Classes
 
 - Week 3
-  - Intro to React
-  - Intro to React Three Fiber
+  - [Intro to React](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-3/intro-to-react)
+  - [Intro to React Three Fiber](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-3/intro-to-r3f)
 
 ## How to run locally
 
-## Additional Materials
+- Clone and install dependencies
 
-## Contributing
+```sh
+git clone https://github.com/juniorxsound/itp-visual-journalism-fall-2023.git && cd itp-visual-journalism-fall-2023
+```
+
+- `cd` into the desired section and class code and install dependencies - e.g `cd classes/week-3/intro-to-react && npm install`
+- Run development server `npm run dev`
