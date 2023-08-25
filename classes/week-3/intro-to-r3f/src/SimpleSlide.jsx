@@ -1,5 +1,3 @@
-import { useScroll } from "@react-three/drei";
-
 function SimpleSlide(props) {
   const { children, viewportPosition } = props;
   return (
