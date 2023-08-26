@@ -16,13 +16,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install and build
-        run: | # Week 3 - Intro to React
+      - name: Week 3 - Intro to React
+        run: |
           cd ./classes/week-3/intro-to-react
           npm ci
           npm run build
+      - name: Week 3 - Intro to React three fiber
         run: | # Week 3 - Intro to React three fiber
-          cd ./classes/week-3/intro-to-react
+          cd ./classes/week-3/intro-to-r3f
           npm ci
           npm run build
 
