@@ -12,20 +12,6 @@ jobs:
           cd ./classes/week-3/intro-to-react
           npm install
           npm run build
-      - name: Week 3 - Intro to React three fiber
-        run: | # Week 3 - Intro to React three fiber
-          cd ./classes/week-3/intro-to-r3f
-          npm install
-          npm run build
-
-  # Minimal test of the GitHub Action
-  # (only runs on pushes to the `main` branch)
-  # Glitch Project: https://glitch.com/edit/#!/github-action
-  sync:
-    if: github.event.ref == 'refs/heads/main' # Only main branch deploys to Glitch
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Sync week 3 - Intro to React
         uses: kanadgupta/glitch-sync@main
         with:
