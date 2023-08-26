@@ -30,12 +30,13 @@ jobs:
   # Minimal test of the GitHub Action
   # (only runs on pushes to the `main` branch)
   # Glitch Project: https://glitch.com/edit/#!/github-action
-  # sync:
-  #   if: github.event.ref == 'refs/heads/main' # Only main branch deploys to Glitch
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Sync week 3 - Intro to React
-  #       uses: kanadgupta/glitch-sync@main
-  #       with:
-  #         auth-token: "${{ secrets.glitchAuthToken }}"
-  #         project-id: "${{ secrets.week3ProjectId }}"
+  sync:
+    if: github.event.ref == 'refs/heads/main' # Only main branch deploys to Glitch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync week 3 - Intro to React
+        uses: kanadgupta/glitch-sync@main
+        with:
+          auth-token: "${{ secrets.glitchAuthToken }}"
+          project-id: "${{ secrets.week3ProjectId }}"
+          path: "./classes/week-3/intro-to-react/dist"
