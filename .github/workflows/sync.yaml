@@ -5,17 +5,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16, 18]
-
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
       - name: Week 3 - Intro to React
         run: |
           cd ./classes/week-3/intro-to-react
@@ -40,4 +31,4 @@ jobs:
         with:
           auth-token: "${{ secrets.glitchAuthToken }}"
           project-id: "${{ secrets.week3ProjectId }}"
-          path: "./classes/week-3/intro-to-react/dist"
+          path: ./classes/week-3/intro-to-react/dist
