@@ -7,6 +7,7 @@ import SimpleThreejsObject from "./SimpleThreejsObject";
 import SimpleGLTFAsset from "./SimpleGLTFAsset";
 
 import SimpleSlide from "./SimpleSlide";
+import { Suspense } from "react";
 
 function Scene() {
   return (
@@ -27,7 +28,9 @@ function Scene() {
           <SimpleBox position={[0, 2, 0]} scale={[2, 2, 2]} />
           <SimpleCone position={[-4, 2, 0]} scale={[1.5, 1.5, 1.5]} />
           <SimpleThreejsObject position={[4, 2, 0]} scale={[0.7, 0.7, 0.7]} />
-          <SimpleGLTFAsset position={[0, 5, 0]} modelUrl={"/monkey.glb"} />
+          <Suspense fallback={null}>
+            <SimpleGLTFAsset position={[0, 5, 0]} modelUrl={"/monkey.glb"} />
+          </Suspense>
 
           {/* Many helpers come built in in three.js see further reads for more from three.js docs */}
           <gridHelper />

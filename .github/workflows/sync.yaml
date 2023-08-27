@@ -17,6 +17,11 @@ jobs:
           cd ./classes/week-3/intro-to-r3f
           npm install
           npm run build
+      - name: Build Week 5 - Visual Explainers
+        run: | # Week 5 - Visual Explainers
+          cd ./classes/week-5/visual-explainers-r3f
+          npm install
+          npm run build
 
   # Minimal test of the GitHub Action
   # (only runs on pushes to the `main` branch)
