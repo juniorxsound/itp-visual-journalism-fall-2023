@@ -5,8 +5,6 @@ import SimpleBox from "./SimpleBox";
 import SimpleCone from "./SimpleCone";
 import SimpleThreejsObject from "./SimpleThreejsObject";
 
-import RotateChildren from "./RotateChildren";
-
 import SimpleSlide from "./SimpleSlide";
 
 function Scene() {
@@ -25,11 +23,9 @@ function Scene() {
           <color args={["#E6FFF3"]} attach="background" />
 
           {/* Transformations are inherited down the tree */}
-          <RotateChildren>
-            <SimpleBox position={[0, 2, 0]} scale={[2, 2, 2]} />
-            <SimpleCone position={[-4, 2, 0]} scale={[1.5, 1.5, 1.5]} />
-            <SimpleThreejsObject position={[4, 2, 0]} scale={[0.7, 0.7, 0.7]} />
-          </RotateChildren>
+          <SimpleBox position={[0, 2, 0]} scale={[2, 2, 2]} />
+          <SimpleCone position={[-4, 2, 0]} scale={[1.5, 1.5, 1.5]} />
+          <SimpleThreejsObject position={[4, 2, 0]} scale={[0.7, 0.7, 0.7]} />
 
           {/* Many helpers come built in in three.js see further reads for more from three.js docs */}
           <gridHelper />
