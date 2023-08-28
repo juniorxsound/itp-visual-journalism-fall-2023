@@ -8,6 +8,7 @@ function SimpleSlide(props) {
         width: "40vw",
         paddingLeft: "20px", // To offset slides a tiny bit from the left side of the screen
         top: `${viewportPosition}vh`,
+        zIndex: "50",
       }}
     >
       {children}

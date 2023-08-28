@@ -14,10 +14,17 @@ function AnimatedCamera(props) {
     CameraTimeline.to(
       cameraRef.current.position,
       {
-        x: 1,
+        x: -1,
         y: 3,
         z: 3,
-        duration: 0.1,
+      },
+      "head"
+    );
+
+    CameraTimeline.to(
+      cameraRef.current.rotation,
+      {
+        y: -0.5,
       },
       "head"
     );
@@ -28,7 +35,14 @@ function AnimatedCamera(props) {
         x: -1.3,
         y: 3.5,
         z: 3,
-        duration: 0.1,
+      },
+      "disc"
+    );
+
+    CameraTimeline.to(
+      cameraRef.current.rotation,
+      {
+        y: 0,
       },
       "disc"
     );
@@ -39,7 +53,6 @@ function AnimatedCamera(props) {
         x: 0.5,
         y: 0,
         z: 6,
-        duration: 0.1,
       },
       "base"
     );
@@ -50,7 +63,6 @@ function AnimatedCamera(props) {
         x: 0,
         y: 2,
         z: 8,
-        duration: 0.1,
       },
       "outro"
     );
