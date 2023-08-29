@@ -7,6 +7,10 @@ import { CameraTimeline } from "./AnimatedCamera";
 // We add a CSS file here so we can style components
 import "./App.css";
 
+/**
+ * This function will calculate how much the user has scrolled (0-1)
+ * @returns {number} The percentage of how much the user has scrolled (0-1)
+ */
 function getScrollProgress() {
   // This will calculate how many pixels the page is vertically
   const winScroll = window.document.documentElement.scrollTop;
@@ -30,7 +34,10 @@ function App() {
       // console.log(`Scroll progress: ${progress}`);
       CameraTimeline.progress(scrolled);
 
-      return () => (window.onscroll = null);
+      return () => {
+        // We unregister the callback when the component unmounts
+        window.onscroll = null;
+      };
     };
   }, []);
 

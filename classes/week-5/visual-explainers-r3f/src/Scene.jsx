@@ -1,5 +1,5 @@
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { PerspectiveCamera, ScrollControls, Scroll } from "@react-three/drei";
 
 import AnimatedCamera from "./AnimatedCamera";
 import StatueGLTFObject from "./StatueGLTFObject";
@@ -19,7 +19,9 @@ function Scene() {
         <color args={["grey"]} attach="background" />
 
         {/* Objects 📦 */}
-        <StatueGLTFObject position={[0, 0, 0]} modelUrl={"/statue.glb"} />
+        <Suspense fallback={null}>
+          <StatueGLTFObject position={[0, 0, 0]} modelUrl={"/statue.glb"} />
+        </Suspense>
       </Canvas>
     </div>
   );
