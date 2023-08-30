@@ -9,7 +9,7 @@ Code for Fall 2023 Visual Journalism course in ITP, NYU 🎓
 - [ ] Please setup a Glitch account in advance
   - [ ] Each class will have a Glitch project that you can remix and work on during class (listed below under Classes)
   - [ ] Alternatively, if you prefer Github - you can clone this repo and work locally (see [How to run locally](#how-to-run-locally))
-- [ ] Each class has a README that lists any further reads and things to try next - please read through those after each class (can also be found in each class slides)
+- [ ] Each class code section has a README that lists any further reads and things to try next - please read through those after each class (can also be found in each class slides)
 
 ## Classes
 
