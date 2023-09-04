@@ -5,7 +5,6 @@
 • <a href="#prerequisites">Prerequisites 💻</a> •
 <a href="#classes">Classes ⚒️</a> •
 <a href="https://drive.google.com/drive/folders/1ZynTz4IDYw-AfaugHCkkJxO_GMcBm7X5?usp=drive_link">Drive 🗃️</a> •
-<a href="https://docs.google.com/document/d/163qVOebt-gsPNbmgHzmU0Tsyxe0YV_2EyHe4bVP3_6Q/edit?usp=sharing">Syllabus 📝</a> •
 </div>
 
 ## Prerequisites
