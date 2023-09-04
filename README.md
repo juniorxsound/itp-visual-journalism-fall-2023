@@ -1,8 +1,12 @@
-# ITP Visual Journalism: Fall 2023
-
-Code for Fall 2023 Visual Journalism course in ITP, NYU 🎓
-
-![Coronavirus Transmission](https://orfleisher.com/static/coronavirus-transmission-cough-6-feet-ar.6d375243.gif)
+<div align="center">
+<h1>ITP Visual Journalism: Fall 2023</h1>
+<img src="https://orfleisher.com/static/coronavirus-transmission-cough-6-feet-ar.6d375243.gif" /><br/>
+<p>Code for Fall 2023 Visual Journalism course in ITP, NYU 🎓</p>
+• <a href="#prerequisites">Prerequisites 💻</a> •
+<a href="#classes">Classes ⚒️</a> •
+<a href="https://drive.google.com/drive/folders/1ZynTz4IDYw-AfaugHCkkJxO_GMcBm7X5?usp=drive_link">Drive 🗃️</a> •
+<a href="https://docs.google.com/document/d/163qVOebt-gsPNbmgHzmU0Tsyxe0YV_2EyHe4bVP3_6Q/edit?usp=sharing">Syllabus 📝</a> •
+</div>
 
 ## Prerequisites
 
