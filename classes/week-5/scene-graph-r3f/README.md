@@ -1,14 +1,14 @@
-# ITP Visual Journalism Fall 2023 - Visual Explainers
+# ITP Visual Journalism Fall 2023 - Scene Graph
 
-This section will cover the basics of creating visual explainers using React Three Fiber.
+This section will cover the basic idea of Scene Graph and scene graph transforms using React Three Fiber.
 
-## Loading in a model
+## Creating a planet
 
-We use the `useGLTF` hook from Drei from week 3 to load in a model (see `StatueGLTFObject.jsx`)
+First off, we create a component that will represent our planet. We'll use a sphere geometry. We'll also add a texture to the material to make it look like a planet (See `src/SimplePlanet.jsx`).
 
-> Model thanks to https://www.myminifactory.com/object/3d-print-townley-discobolus-the-discus-thrower-25156
+## A planet with children planets
 
-Lights are used in `Scene.jsx` to illuminate the model.
+In order to support scene graph transforms, components must be able to take in children, in our case - our Planet is going to have multiple planets nested under it - each planet accumelating it's parent transforms (neat!).
 
 ## Using `Html` to place DOM elements in 3D space
 
@@ -22,27 +22,10 @@ return (
 );
 ```
 
-See `StatueGLTFObject.jsx` for an example of how to use this component.
+See `SimplePlanet.jsx` for an example of how to use this component.
 
-## Animation...
+## Putting everything together in the Scene
 
-We include `gasp` in the project to be able to build a sequence of animations, which we then tie into the user's scroll position for playback. (see `AnimatedCamera.jsx`)
-
-- First, we create a `CameraTimeline` object that will hold the camera's animation sequence. (note how we set it to `paused: true` so that it doesn't play back automatically)
-- We then create an `AnimatedCamera` component that returns the `<PerspectiveCamera />` we were using before, but keeps a ref for the camera
-- in a `useEffect` that triggers when the component mounts - we build the camera animation timeline
-
-```js
-/**
- * We register .to animations on the timeline and it constructs the sequence for us. If we wanted two animation to happen parrallely, we'd use the same animationLabel
- **/
-CameraTimeline.to(
-  objectThatAnimates,
-  {
-    animationKey: newValue,
-  },
-  "animationLabel"
-);
-```
-
-- Lastly, in `App.jsx` we import the `CameraTimeline` and in a `useEffect` we register a scroll callback that updates the timeline based on the user's scroll position.
+- We now have multiple planets that are nested under each other.
+- Each planet rotates in it's local space (accumelating it's parent's rotation, scale and position).
+- Each planet also has it's own marker in local space, enabling us to track the 3D object with a label
