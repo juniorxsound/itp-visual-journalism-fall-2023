@@ -1,0 +1,34 @@
+body {
+  /* Reseting the default here */
+  margin: 0;
+}
+
+#article_wrapper {
+  position: relative;
+  background-color: grey;
+  height: 5000px; /* Length of the interactive scroll article */
+}
+
+#canvas_wrapper {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scroll_slide {
+  color: "white";
+  position: "absolute";
+  width: "50vw";
+  padding-left: "20px";
+  z-index: "50";
+}
+
+.label {
+  color: white;
+  padding: 15px;
+  border-radius: 10%;
+  min-width: 170px;
+  background: rgba(0, 0, 0, 0.5);
+}
