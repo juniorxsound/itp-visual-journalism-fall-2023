@@ -22,8 +22,8 @@
   - Intro to React Three Fiber ([Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week3-intro-to-r3f) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-3/intro-to-r3f))
 
 - Week 5 ([Slides](https://docs.google.com/presentation/d/1SXs8MSkbsMhADTiFQZfblComxE7Kk3jxLGT94PyLyr4/edit?usp=sharing))
-  - Scene Graph ([Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week5-scene-graph-r3f?path=README.md%3A1%3A0) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-5/scene-graph-r3f))
-  - Visual Explainers ([Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week5-visual-explainers-r3f) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-5/visual-explainers-r3f))
+  - Scene Graph ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week5-scene-graph-r3f?path=README.md%3A1%3A0) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week5-scene-graph-r3f-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-5/scene-graph-r3f))
+  - Visual Explainers ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week5-visual-explainers-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week5-visual-explainers-r3f-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-5/visual-explainers-r3f))
 
 ## How to run locally
 
