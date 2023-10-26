@@ -27,7 +27,16 @@ jobs:
           cd ./classes/week-5/visual-explainers-r3f
           npm install
           npm run build
-
+      - name: Build Week 8 - Materials
+        run: | # Week 8 - Materials
+          cd ./classes/week-8/materials-r3f
+          npm install
+          npm run build
+      - name: Build Week 8 - Animated Highlights
+        run: | # Week 8 - Animated Highlights
+          cd ./classes/week-8/animated-highlights-r3f
+          npm install
+          npm run build
   # Minimal test of the GitHub Action
   # (only runs on pushes to the `main` branch)
   # Glitch Project: https://glitch.com/edit/#!/github-action
