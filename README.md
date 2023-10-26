@@ -27,6 +27,8 @@
   - Visual Explainers ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week5-visual-explainers-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week5-visual-explainers-r3f-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-5/visual-explainers-r3f))
 
 - Week 8 ([Slides](https://docs.google.com/presentation/d/1IcrqpxD9YnCR75S2cwPxP-5KWIA7jM-1fK3uzny5n3Q/edit?usp=sharing]))
+  - Materials ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week8-materials-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week8-materials-r3f-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-8/materials-r3f))
+  - Animated Highlights ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week8-animated-highlights-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week8-animated-highlights-r3f-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-8/animated-highlights-r3f))
 
 ## How to run locally
 
