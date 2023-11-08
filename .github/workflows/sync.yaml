@@ -37,6 +37,11 @@ jobs:
           cd ./classes/week-8/animated-highlights-r3f
           npm install
           npm run build
+      - name: Build Week 10 - Data, Controls, Interactions
+        run: | # Week 8 - Animated Highlights
+          cd ./classes/week-10/data-controls-interactions-r3f
+          npm install
+          npm run build
   # Minimal test of the GitHub Action
   # (only runs on pushes to the `main` branch)
   # Glitch Project: https://glitch.com/edit/#!/github-action
