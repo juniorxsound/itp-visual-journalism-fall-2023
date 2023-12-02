@@ -32,7 +32,12 @@
   - Animated Highlights ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week8-animated-highlights-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week8-animated-highlights-r3f-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-8/animated-highlights-r3f))
 
 - Week 10 ([Slides](https://docs.google.com/presentation/d/1vN-h7zCo2AcoSsDMWMDXPczE0nj668kp3yNX-rYKrfw/edit?usp=sharing]))
+
   - Data, Controls, Interactions ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week10-data-controls-interactions-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week10-data-class-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-10/data-controls-interactions-r3f))
+
+- Week 13 ([Slides](#))
+  - File Animations ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week13-file-animations-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week13-file-anim-r3f-class-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-13/file-animations-r3f))
+  - Post-processing ([Full Glitch](https://glitch.com/edit/#!/itp-visual-journalism-week13-post-processing-r3f) / [Glitch Class Starter](https://glitch.com/edit/#!/itp-visual-journalism-week13-post-processing-r3f-class-starter) / [Github](https://github.com/juniorxsound/itp-visual-journalism-fall-2023/tree/main/classes/week-13/post-processing-r3f))
 
 ## How to run locally
 

@@ -13,33 +13,43 @@ jobs:
           npm install
           npm run build
       - name: Build Week 3 - Intro to React three fiber
-        run: | # Week 3 - Intro to React three fiber
+        run: |
           cd ./classes/week-3/intro-to-r3f
           npm install
           npm run build
       - name: Build Week 5 - Scene Graph
-        run: | # Week 5 - Scene Graph
+        run: |
           cd ./classes/week-5/scene-graph-r3f
           npm install
           npm run build
       - name: Build Week 5 - Visual Explainers
-        run: | # Week 5 - Visual Explainers
+        run: |
           cd ./classes/week-5/visual-explainers-r3f
           npm install
           npm run build
       - name: Build Week 8 - Materials
-        run: | # Week 8 - Materials
+        run: |
           cd ./classes/week-8/materials-r3f
           npm install
           npm run build
       - name: Build Week 8 - Animated Highlights
-        run: | # Week 8 - Animated Highlights
+        run: |
           cd ./classes/week-8/animated-highlights-r3f
           npm install
           npm run build
       - name: Build Week 10 - Data, Controls, Interactions
-        run: | # Week 8 - Animated Highlights
+        run: |
           cd ./classes/week-10/data-controls-interactions-r3f
+          npm install
+          npm run build
+      - name: Build Week 13 - File Animations
+        run: |
+          cd ./classes/week-13/file-animations-r3f
+          npm install
+          npm run build
+      - name: Build Week 13 - Post Processing
+        run: |
+          cd ./classes/week-13/post-processing-r3f
           npm install
           npm run build
   # Minimal test of the GitHub Action
